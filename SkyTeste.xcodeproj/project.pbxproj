@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B3B8436019EA9D39BA72ED /* Pods_SkyTeste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE8BFA159325C4DE08FB925 /* Pods_SkyTeste.framework */; };
 		24A461C71FBF1CCC009CB437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461C61FBF1CCC009CB437 /* AppDelegate.swift */; };
 		24A461C91FBF1CCC009CB437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461C81FBF1CCC009CB437 /* ViewController.swift */; };
 		24A461CC1FBF1CCC009CB437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CA1FBF1CCC009CB437 /* Main.storyboard */; };
 		24A461CE1FBF1CCC009CB437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CD1FBF1CCC009CB437 /* Assets.xcassets */; };
 		24A461D11FBF1CCC009CB437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CF1FBF1CCC009CB437 /* LaunchScreen.storyboard */; };
+		24A461DA1FBF1D51009CB437 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461D91FBF1D51009CB437 /* Movie.swift */; };
+		24A461DE1FBF1E13009CB437 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */; };
+		24A461E11FBF1E62009CB437 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */; };
+		24A461E41FBF1EA9009CB437 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461E31FBF1EA9009CB437 /* REST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		24A461CD1FBF1CCC009CB437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A461D01FBF1CCC009CB437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A461D21FBF1CCC009CB437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A461D91FBF1D51009CB437 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		24A461E31FBF1EA9009CB437 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		730AA7A381A3087ECA3BFA69 /* Pods-SkyTeste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTeste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste.debug.xcconfig"; sourceTree = "<group>"; };
+		7DD27CD7E27A1FE58D9B414F /* Pods-SkyTeste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTeste.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste.release.xcconfig"; sourceTree = "<group>"; };
+		EFE8BFA159325C4DE08FB925 /* Pods_SkyTeste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTeste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B3B8436019EA9D39BA72ED /* Pods_SkyTeste.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				24A461C51FBF1CCC009CB437 /* SkyTeste */,
 				24A461C41FBF1CCC009CB437 /* Products */,
+				A193D864530E1449A91DB1EA /* Pods */,
+				7B76AF47EAD65A02834A3513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,83 @@
 		24A461C51FBF1CCC009CB437 /* SkyTeste */ = {
 			isa = PBXGroup;
 			children = (
+				24A461E21FBF1E8E009CB437 /* REST */,
+				24A461DF1FBF1E48009CB437 /* ViewControllers */,
+				24A461DB1FBF1DDE009CB437 /* View */,
+				24A461D81FBF1D45009CB437 /* Model */,
 				24A461C61FBF1CCC009CB437 /* AppDelegate.swift */,
-				24A461C81FBF1CCC009CB437 /* ViewController.swift */,
-				24A461CA1FBF1CCC009CB437 /* Main.storyboard */,
 				24A461CD1FBF1CCC009CB437 /* Assets.xcassets */,
-				24A461CF1FBF1CCC009CB437 /* LaunchScreen.storyboard */,
 				24A461D21FBF1CCC009CB437 /* Info.plist */,
 			);
 			path = SkyTeste;
+			sourceTree = "<group>";
+		};
+		24A461D81FBF1D45009CB437 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24A461D91FBF1D51009CB437 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24A461DB1FBF1DDE009CB437 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24A461DC1FBF1DED009CB437 /* Includes */,
+				24A461CA1FBF1CCC009CB437 /* Main.storyboard */,
+				24A461CF1FBF1CCC009CB437 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24A461DC1FBF1DED009CB437 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */,
+			);
+			path = Includes;
+			sourceTree = "<group>";
+		};
+		24A461DF1FBF1E48009CB437 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24A461E51FBF1EDE009CB437 /* Includes */,
+				24A461C81FBF1CCC009CB437 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		24A461E21FBF1E8E009CB437 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				24A461E31FBF1EA9009CB437 /* REST.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		24A461E51FBF1EDE009CB437 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */,
+			);
+			path = Includes;
+			sourceTree = "<group>";
+		};
+		7B76AF47EAD65A02834A3513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8BFA159325C4DE08FB925 /* Pods_SkyTeste.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A193D864530E1449A91DB1EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				730AA7A381A3087ECA3BFA69 /* Pods-SkyTeste.debug.xcconfig */,
+				7DD27CD7E27A1FE58D9B414F /* Pods-SkyTeste.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24A461D51FBF1CCC009CB437 /* Build configuration list for PBXNativeTarget "SkyTeste" */;
 			buildPhases = (
+				92C4C58CA0B632AEA6334D47 /* [CP] Check Pods Manifest.lock */,
 				24A461BF1FBF1CCC009CB437 /* Sources */,
 				24A461C01FBF1CCC009CB437 /* Frameworks */,
 				24A461C11FBF1CCC009CB437 /* Resources */,
+				F853A6DEA027596E5CEA5695 /* [CP] Embed Pods Frameworks */,
+				619AEBE4A956EEECDA911F03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +213,69 @@
 				24A461D11FBF1CCC009CB437 /* LaunchScreen.storyboard in Resources */,
 				24A461CE1FBF1CCC009CB437 /* Assets.xcassets in Resources */,
 				24A461CC1FBF1CCC009CB437 /* Main.storyboard in Resources */,
+				24A461E11FBF1E62009CB437 /* MovieCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		619AEBE4A956EEECDA911F03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C4C58CA0B632AEA6334D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyTeste-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F853A6DEA027596E5CEA5695 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24A461BF1FBF1CCC009CB437 /* Sources */ = {
@@ -138,6 +284,9 @@
 			files = (
 				24A461C91FBF1CCC009CB437 /* ViewController.swift in Sources */,
 				24A461C71FBF1CCC009CB437 /* AppDelegate.swift in Sources */,
+				24A461DA1FBF1D51009CB437 /* Movie.swift in Sources */,
+				24A461E41FBF1EA9009CB437 /* REST.swift in Sources */,
+				24A461DE1FBF1E13009CB437 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +421,7 @@
 		};
 		24A461D61FBF1CCC009CB437 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730AA7A381A3087ECA3BFA69 /* Pods-SkyTeste.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +437,7 @@
 		};
 		24A461D71FBF1CCC009CB437 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD27CD7E27A1FE58D9B414F /* Pods-SkyTeste.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
