@@ -11,12 +11,12 @@ import SwiftyJSON
 
 class Movie: NSObject {
     
-    var id: String?
-    var title: String?
-    var overview: String?
-    var duration: String?
-    var release_year: String?
-    var cover_url: String?
+    var id: String = ""
+    var title: String = ""
+    var overview: String = ""
+    var duration: String = ""
+    var release_year: String = ""
+    var cover_url: String = ""
     
     override init() {
         
@@ -24,12 +24,12 @@ class Movie: NSObject {
     
     init(json: JSON) {
         
-        self.id = json["id"].stringValue
-        self.title = json["title"].stringValue
-        self.overview = json["overview"].stringValue
-        self.duration = json["duration"].stringValue
-        self.release_year = json["release_year"].stringValue
-        self.cover_url = json["cover_url"].stringValue
+        self.id = json["id"].string ?? ""
+        self.title = json["title"].string ?? ""
+        self.overview = json["overview"].string ?? ""
+        self.duration = json["duration"].string ?? ""
+        self.release_year = json["release_year"].string ?? ""
+        self.cover_url = json["cover_url"].string ?? ""
         
     }
 

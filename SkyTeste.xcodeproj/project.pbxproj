@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		09B3B8436019EA9D39BA72ED /* Pods_SkyTeste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE8BFA159325C4DE08FB925 /* Pods_SkyTeste.framework */; };
+		244B6F7C22B78C5B00046845 /* MovieDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B6F7B22B78C5B00046845 /* MovieDetailsController.swift */; };
 		24A461C71FBF1CCC009CB437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461C61FBF1CCC009CB437 /* AppDelegate.swift */; };
-		24A461C91FBF1CCC009CB437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461C81FBF1CCC009CB437 /* ViewController.swift */; };
+		24A461C91FBF1CCC009CB437 /* MoviesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461C81FBF1CCC009CB437 /* MoviesController.swift */; };
 		24A461CC1FBF1CCC009CB437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CA1FBF1CCC009CB437 /* Main.storyboard */; };
 		24A461CE1FBF1CCC009CB437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CD1FBF1CCC009CB437 /* Assets.xcassets */; };
 		24A461D11FBF1CCC009CB437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A461CF1FBF1CCC009CB437 /* LaunchScreen.storyboard */; };
 		24A461DA1FBF1D51009CB437 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461D91FBF1D51009CB437 /* Movie.swift */; };
 		24A461DE1FBF1E13009CB437 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */; };
 		24A461E11FBF1E62009CB437 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */; };
-		24A461E41FBF1EA9009CB437 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461E31FBF1EA9009CB437 /* REST.swift */; };
+		24A461E41FBF1EA9009CB437 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A461E31FBF1EA9009CB437 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244B6F7B22B78C5B00046845 /* MovieDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsController.swift; sourceTree = "<group>"; };
 		24A461C31FBF1CCC009CB437 /* SkyTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A461C61FBF1CCC009CB437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24A461C81FBF1CCC009CB437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24A461C81FBF1CCC009CB437 /* MoviesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesController.swift; sourceTree = "<group>"; };
 		24A461CB1FBF1CCC009CB437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24A461CD1FBF1CCC009CB437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A461D01FBF1CCC009CB437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,7 +32,7 @@
 		24A461D91FBF1D51009CB437 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
-		24A461E31FBF1EA9009CB437 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		24A461E31FBF1EA9009CB437 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		730AA7A381A3087ECA3BFA69 /* Pods-SkyTeste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTeste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste.debug.xcconfig"; sourceTree = "<group>"; };
 		7DD27CD7E27A1FE58D9B414F /* Pods-SkyTeste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTeste.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste.release.xcconfig"; sourceTree = "<group>"; };
 		EFE8BFA159325C4DE08FB925 /* Pods_SkyTeste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTeste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +71,9 @@
 		24A461C51FBF1CCC009CB437 /* SkyTeste */ = {
 			isa = PBXGroup;
 			children = (
-				24A461E21FBF1E8E009CB437 /* REST */,
+				24A461E21FBF1E8E009CB437 /* Services */,
 				24A461DF1FBF1E48009CB437 /* ViewControllers */,
-				24A461DB1FBF1DDE009CB437 /* View */,
+				24A461DB1FBF1DDE009CB437 /* Views */,
 				24A461D81FBF1D45009CB437 /* Model */,
 				24A461C61FBF1CCC009CB437 /* AppDelegate.swift */,
 				24A461CD1FBF1CCC009CB437 /* Assets.xcassets */,
@@ -88,47 +90,40 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		24A461DB1FBF1DDE009CB437 /* View */ = {
+		24A461DB1FBF1DDE009CB437 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				24A461DC1FBF1DED009CB437 /* Includes */,
+				24A461DC1FBF1DED009CB437 /* TableCells */,
 				24A461CA1FBF1CCC009CB437 /* Main.storyboard */,
 				24A461CF1FBF1CCC009CB437 /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		24A461DC1FBF1DED009CB437 /* Includes */ = {
+		24A461DC1FBF1DED009CB437 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
+				24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */,
 				24A461E01FBF1E62009CB437 /* MovieCollectionViewCell.xib */,
 			);
-			path = Includes;
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 		24A461DF1FBF1E48009CB437 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				24A461E51FBF1EDE009CB437 /* Includes */,
-				24A461C81FBF1CCC009CB437 /* ViewController.swift */,
+				24A461C81FBF1CCC009CB437 /* MoviesController.swift */,
+				244B6F7B22B78C5B00046845 /* MovieDetailsController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		24A461E21FBF1E8E009CB437 /* REST */ = {
+		24A461E21FBF1E8E009CB437 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				24A461E31FBF1EA9009CB437 /* REST.swift */,
+				24A461E31FBF1EA9009CB437 /* Services.swift */,
 			);
-			path = REST;
-			sourceTree = "<group>";
-		};
-		24A461E51FBF1EDE009CB437 /* Includes */ = {
-			isa = PBXGroup;
-			children = (
-				24A461DD1FBF1E13009CB437 /* MovieCollectionViewCell.swift */,
-			);
-			path = Includes;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		7B76AF47EAD65A02834A3513 /* Frameworks */ = {
@@ -160,7 +155,6 @@
 				24A461C01FBF1CCC009CB437 /* Frameworks */,
 				24A461C11FBF1CCC009CB437 /* Resources */,
 				F853A6DEA027596E5CEA5695 /* [CP] Embed Pods Frameworks */,
-				619AEBE4A956EEECDA911F03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,21 +214,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		619AEBE4A956EEECDA911F03 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		92C4C58CA0B632AEA6334D47 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,20 +238,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyTeste/Pods-SkyTeste-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -282,11 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A461C91FBF1CCC009CB437 /* ViewController.swift in Sources */,
+				24A461C91FBF1CCC009CB437 /* MoviesController.swift in Sources */,
 				24A461C71FBF1CCC009CB437 /* AppDelegate.swift in Sources */,
 				24A461DA1FBF1D51009CB437 /* Movie.swift in Sources */,
-				24A461E41FBF1EA9009CB437 /* REST.swift in Sources */,
+				24A461E41FBF1EA9009CB437 /* Services.swift in Sources */,
 				24A461DE1FBF1E13009CB437 /* MovieCollectionViewCell.swift in Sources */,
+				244B6F7C22B78C5B00046845 /* MovieDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +407,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4W4CDBHWB5;
 				INFOPLIST_FILE = SkyTeste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vini.torres.SkyTeste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,11 +424,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4W4CDBHWB5;
 				INFOPLIST_FILE = SkyTeste/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vini.torres.SkyTeste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
